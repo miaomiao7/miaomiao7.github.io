@@ -6,7 +6,7 @@
   <link href="https://miaomiao7.github.io/atom.xml" rel="self"/>
   
   <link href="https://miaomiao7.github.io/"/>
-  <updated>2021-04-21T00:46:06.896Z</updated>
+  <updated>2021-04-21T00:48:12.908Z</updated>
   <id>https://miaomiao7.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://miaomiao7.github.io/2021/04/21/javascript/"/>
     <id>https://miaomiao7.github.io/2021/04/21/javascript/</id>
     <published>2021-04-21T00:30:50.000Z</published>
-    <updated>2021-04-21T00:46:06.896Z</updated>
+    <updated>2021-04-21T00:48:12.908Z</updated>
     
     <content type="html"><![CDATA[<span id="more"></span><h2 id="外部的-JavaScript"><a href="#外部的-JavaScript" class="headerlink" title="外部的 JavaScript"></a>外部的 JavaScript</h2><p>可以把脚本保存到外部文件中。外部文件通常包含被多个网页使用的代码。</p><p>外部 JavaScript 文件的文件扩展名是 .js。</p><p>如需使用外部文件，在 <script> 标签的 "src" 属性中设置该 .js 文件：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src&#x3D;&quot;myScript.js&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure><blockquote><p>外部脚本不能包含 <script> 标签。</p></blockquote><h2 id="JavaScript-输出"><a href="#JavaScript-输出" class="headerlink" title="JavaScript 输出"></a>JavaScript 输出</h2><p>JavaScript 没有任何打印或者输出的函数。</p><p>JavaScript 可以通过不同的方式来输出数据：</p><ul><li>使用 <strong>window.alert()</strong> 弹出警告框。</li><li>使用 <strong>document.write()</strong> 方法将内容写到 HTML 文档中。</li><li>使用 <strong>innerHTML</strong> 写入到 HTML 元素。</li><li>使用 <strong>console.log()</strong> 写入到浏览器的控制台。</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;p id&#x3D;&quot;demo&quot;&gt;我的第一个段落&lt;&#x2F;p&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">document.getElementById(&quot;demo&quot;).innerHTML &#x3D; &quot;段落已修改。&quot;;</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>]]></content>
     
